@@ -25,6 +25,7 @@ export default function Home() {
       <Carousel />
       <FeaturedProducts />
       <Categories />
+      <Banner />
     </>
   )
 }
@@ -110,6 +111,7 @@ function FeaturedPorductTemplate(props) {
 function Categories() {
   return (
     <section className={styles['catagories-section']}>
+      <h2>Categories</h2>
       <div className={styles.catagories}>
         <a className={styles['category-one']}>Category One</a>
         <a className={styles['category-two']}>Category Two</a>
@@ -120,3 +122,18 @@ function Categories() {
   )
 }
 // END OF HOMEPAGE - CATEGORIES -------------
+
+// HOMEPAGE -- BANNER------------
+
+function Banner() {
+  return (
+    <section className={styles.banner}>
+      <div className={styles['banner-container']}>
+          <h3>Banner Text Here</h3>
+          <button>Button</button>
+      </div>
+    </section>
+  )
+}
+
+// END OF HOMEPAGE -- BANNER------------

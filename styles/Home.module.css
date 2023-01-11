@@ -65,11 +65,6 @@
   .featured {
     margin: 2rem 0;
   }
-  .featured h2 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-
-  }
 
   .product-description h5 {
     font-size: 1.5rem;
@@ -96,19 +91,24 @@
 
   /* Catagories Section Styling */
 .catagories-section {
-    height: 70vh;  
-    margin: 5rem 5rem;
+    height: 80vh;  
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.catagories-section h2 {
+  /* flex-grow: 1; */
 }
 
 .catagories {
-  width: 100%;
-  height: 100%;
+  flex-grow: 5;
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas: 
-  "one two"
-  "three four";
+  "one one two three"
+  "one one two four";
   gap: 10px;
 }
 
@@ -120,6 +120,9 @@
   color: white;
   font-size: 1.4rem;
   transition: all .5s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .catagories a:hover {
@@ -128,24 +131,43 @@
 
 .category-one {
   grid-area: one;
-  background-image: url(../public/homepage-images/earrings-main.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
-  background-size: cover;
+  background-image: url(../public/homepage-images/categories/main-category.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
 }  
 .category-two {
   grid-area: two;
-  background-image: url(../public/homepage-images/earrings-main.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
-  background-size: cover;
+  background-image: url(../public/homepage-images/categories//secondary-category.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
 }
 
 .category-three {
   grid-area: three;
-  background-image: url(../public/homepage-images/earrings-main.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
-  background-size: cover;
+  background-image: url(../public/homepage-images/categories/subset-main-category.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
 }
 .category-four {
   grid-area: four;
-  background-image: url(../public/homepage-images/earrings-main.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
-  background-size: cover;
+  background-image: url(../public/homepage-images/categories/subset-secondary-category.webp),  linear-gradient(rgba(0,0,0, .3),rgba(0,0,0, .3));
 }
 
   /* End of Categories Section Styling */
+
+/* Banner Styling */
+  .banner {
+    height: 70vh;
+    padding: 5rem 5rem;
+  }
+
+  .banner-container {
+    width: inherit;
+    height: inherit;
+    background-image: url(../public//homepage-images/homepage-banner.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* End of Banner Styling */
