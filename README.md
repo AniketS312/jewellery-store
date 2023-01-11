@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+website inspirations
+https://template.hasthemes.com/hurst-v1/tf.html?storefront=envato-elements
+https://template.hasthemes.com/shopick-v1/shopick/index.html
+https://tunatheme.com/tf/html/arowana-preview/?storefront=envato-elements
+http://htmlbeans.com/html/schon/homepage2.html
 First, run the development server:
 
 ```bash
