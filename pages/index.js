@@ -10,6 +10,7 @@ import Chevron from './components/Chevrons'
 import styles from '../styles/Home.module.css'
 
 import testImage from '../public/homepage-images/earrings-main.webp'
+import Footer from './components/Footer'
 
 
 
@@ -26,6 +27,7 @@ export default function Home() {
       <FeaturedProducts />
       <Categories />
       <Banner />
+      <Footer />
     </>
   )
 }

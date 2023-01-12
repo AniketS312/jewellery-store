@@ -1,0 +1,46 @@
+.footer {
+    padding:  5rem;
+    background-color: #f6f6f6;
+}
+
+.perks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 1px solid black;
+}
+
+.perk {
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 10px;
+}
+
+.perk div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.perk h6 {
+    font-size: 1rem;
+}
+
+.footer-description {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-description__company {
+    text-align: left;
+}
+
+.contact-info {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}

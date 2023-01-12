@@ -153,11 +153,13 @@
   .banner {
     height: 70vh;
     padding: 5rem 5rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .banner-container {
     width: inherit;
-    height: inherit;
+    flex-grow: 1;
     background-image: url(../public//homepage-images/homepage-banner.webp);
     background-attachment: fixed;
     background-position: center;
