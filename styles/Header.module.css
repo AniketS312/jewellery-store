@@ -1,0 +1,55 @@
+.header  {
+
+}
+
+.headline {
+    border-bottom: 1px solid gray;
+    padding: .5rem 0;
+}
+
+.headline .bolded {
+    font-weight: 700;
+}
+
+.headline .announcement {
+    margin: 0 5rem;
+}
+
+.headmain {
+    margin: 0 5rem;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    padding: 1rem 0
+}
+
+.headmain label {
+    opacity: 0;
+}
+
+.headmain h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.headmenu {
+    border-top: 2px solid black;
+    margin: 1rem 5rem;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.headmenu-menu ul {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.headmenu-menu ul li {
+    list-style: none;
+}
+
+.headmenu-menu a {
+    padding: 0 1rem;
+    cursor: pointer;
+}

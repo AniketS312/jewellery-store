@@ -64,7 +64,7 @@ function Payment() {
 function MapPin() {
     return (
     <>
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" dataReactroot="">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
    <path strokeLinejoin="round" strokeLinecap="round" strokeWidth="1" stroke="#4a4a4a" fill="none" d="M11 10H13V16L12 19L11 16V10Z"></path>
    <path strokeLinejoin="round" strokeLinecap="round" strokeWidth="1" stroke="#4a4a4a" d="M8 16.3118C5.03656 16.8027 3 17.8221 3 19C3 20.6568 7.02944 22 12 22C16.9706 22 21 20.6568 21 19C21 17.8221 18.9634 16.8027 16 16.3118"></path>
    <circle strokeWidth="1" stroke="#221b38" fill="none" r="4" cy="6" cx="12"></circle>
@@ -75,7 +75,7 @@ function MapPin() {
 function Mail() {
     return (
     <>
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" dataReactroot="">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
    <path strokeLinejoin="round" strokeLinecap="round" strokeMiterlimit="10" strokeWidth="1" stroke="#4a4a4a" fill="none" d="M20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20Z"></path>
    <path strokeLinecap="round" strokeMiterlimit="10" strokeWidth="1" stroke="#4a4a4a" fill="none" d="M20 4H4C2.9 4 2 4.9 2 6L12 13L22 6C22 4.9 21.1 4 20 4Z"></path>
    </svg>

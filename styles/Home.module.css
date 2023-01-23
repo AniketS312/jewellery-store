@@ -152,7 +152,7 @@
 /* Banner Styling */
   .banner {
     height: 70vh;
-    padding: 5rem 5rem;
+    padding: 5rem 0;
     display: flex;
     flex-direction: column;
   }
@@ -173,3 +173,34 @@
   }
 
 /* End of Banner Styling */
+
+/* About Us Styling */
+.aboutus {
+  padding: 2rem 5rem;
+  display: flex;
+}
+
+.aboutus-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 10%;
+}
+
+.aboutus-text h3 {
+  margin-bottom: 1rem;
+}
+.aboutus p {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.aboutus-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End of About Us Styling */

@@ -34,7 +34,7 @@ export default function Footer() {
             <div className={styles['footer-description']}>
                 <div className={styles['footer-description__company']}>
                     <h3>Logo</h3>
-                    <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <span>Contact us today if you have any questions regarding your experince today on the website.</span>
                     <div className={styles['contact-info']}>
                         <MapPin />
                         <p>Edmonton, Alberta, T4R 3R1</p>
@@ -45,10 +45,29 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className={styles['footer-description__menu']}>
-
+                    <div className={styles['menu-one']}>
+                        <h6>Categories</h6>
+                        <ul>
+                            <li><a>Earrings</a></li>
+                            <li><a>Necklace</a></li>
+                            <li><a>Rings</a></li>
+                            <li><a>Bracelets</a></li>
+                        </ul>
+                    </div>
+                    <div className={styles['menu-two']}>
+                        <h6>Information</h6>
+                        <ul>
+                            <li><a>About Us</a></li>
+                            <li><a>Contact us</a></li>
+                            <li><a>Terms of Service</a></li>
+                            <li><a>FAQs</a></li>
+                        </ul>
+                    </div>
                 </div>
                 <div className={styles['footer-description__newsletter']}>
-
+                    <h6>Sign Up for our Newsletter</h6>
+                    <label>Your email address</label>
+                    <input></input>
                 </div>
             </div>
         </footer>

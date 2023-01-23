@@ -8,7 +8,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 10px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #707070;
 }
 
 .perk {
@@ -31,16 +31,61 @@
 .footer-description {
     padding: 2rem 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.footer-description__company {
-    text-align: left;
+.footer-description__company  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+
+
+.footer-description__company span {
+    word-wrap: break-word;
+    padding: 1rem 0;
 }
 
 .contact-info {
     display: flex;
     gap: 10px;
     margin-bottom: 5px;
+}
+
+.footer-description__menu {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-description__menu h6 {
+    font-size: 1.2rem;
+}
+
+.footer-description__menu  ul {
+    list-style: none;
+}
+
+.footer-description__menu  ul li {
+    padding: .2rem 0;
+    
+}
+
+.footer-description__menu a {
+    cursor: pointer;
+}
+
+
+.footer-description__menu h6 {
+    margin-bottom: 1rem;
+
+}
+
+.footer-description__newsletter {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
 }
